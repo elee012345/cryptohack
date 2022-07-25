@@ -6,3 +6,5 @@ if i figured all of this out so can you
 
 I am keeping this on github so that I can use this as reference and also so that I don't accidentally
 delete this (it's happened before)
+
+cryptohack is a cool online learning website that teaches you about cryptography and modern encryption
