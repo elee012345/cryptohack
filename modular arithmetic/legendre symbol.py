@@ -48,3 +48,30 @@ for a in ints:
     if pow(a, (p-1)//2, p) == 1:
         quadratic_residues.append(a)
 print(quadratic_residues)
+
+# there is only one so i will assign that value to a variable
+quadratic_residue = quadratic_residues[0]
+
+# now to find the square root of the element in our quadratic residues list
+# if i try to brute force it then i will have to wait a week and my pc will die
+# do not run this lol
+"""
+roots = []
+for i in range(p):
+    print("percent done: " + str(i/p*100))
+    if pow(i, 2, p) == a:
+        print(i)
+        roots.append(i)
+
+print("the roots are: " + str(roots))
+"""
+
+
+# the equation is a^2 = x mod p
+# we are trying to find x
+
+# our hint:
+# So Legendre's symbol tells us which integer is a quadratic residue, but how do we find the square root?! 
+# The prime supplied obeys p = 3 mod 4, which allows us easily compute the square root. 
+# The answer is online, but you can figure it out yourself if you think about Fermat's little theorem.
+
